@@ -1,0 +1,859 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Kartheek | Software Developer</title>
+    <meta name="description"
+          content="Portfolio of Kartheek, a B.Tech Computer Science student and aspiring Software Developer.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap"
+          rel="stylesheet">
+
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- ================= PRELOADER ================= -->
+
+<div class="preloader">
+    <div class="loader">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+</div>
+
+
+<!-- ================= NAVBAR ================= -->
+
+<header class="navbar">
+
+    <div class="container nav-container">
+
+       <a href="#home" class="logo">
+    <img src="profile.jpg" alt="Kartheek">
+    <span>KARTHEEK</span>
+</a>
+
+        <nav class="nav-menu">
+
+            <a href="#home" class="nav-link active">Home</a>
+            <a href="#about" class="nav-link">About</a>
+            <a href="#skills" class="nav-link">Skills</a>
+            <a href="#projects" class="nav-link">Projects</a>
+            <a href="#experience" class="nav-link">Experience</a>
+            <a href="#contact" class="nav-link">Contact</a>
+
+        </nav>
+
+        <div class="nav-actions">
+
+            <button class="theme-toggle" id="themeToggle"
+                    aria-label="Toggle theme">
+                <i class="fa-solid fa-moon"></i>
+            </button>
+
+            <a href="#contact" class="nav-hire">
+                Let's Talk
+            </a>
+
+            <button class="menu-toggle" id="menuToggle"
+                    aria-label="Open menu">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+        </div>
+
+    </div>
+
+</header>
+
+
+<!-- ================= HERO ================= -->
+
+<main>
+
+<section class="hero" id="home">
+
+    <div class="hero-grid"></div>
+
+    <div class="container hero-container">
+
+        <div class="hero-content reveal">
+
+            <div class="availability">
+                <span class="status-dot"></span>
+                Available for opportunities
+            </div>
+
+            <p class="hero-small">
+                HELLO, I'M
+            </p>
+
+            <h1>
+                SIDDI <span>KARTHEEK</span>
+            </h1>
+
+            <h2>
+                Software Developer
+            </h2>
+
+            <p class="hero-description">
+                I build modern web applications and practical software
+                solutions with clean code, problem-solving and a
+                user-focused approach.
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="#projects" class="btn btn-primary">
+                    View Projects
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+
+                <a href="resume.pdf"
+                   class="btn btn-secondary"
+                   download>
+                    Download Resume
+                    <i class="fa-solid fa-download"></i>
+                </a>
+
+            </div>
+
+            <div class="social-links">
+
+                <a href="https://github.com/kartheek-siddi"
+                   target="_blank"
+                   aria-label="GitHub">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+
+                <a href="https://linkedin.com/in/karthik-siddi-9a66382a5"
+                   target="_blank"
+                   aria-label="LinkedIn">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+
+                <a href="mailto:karthiksiddi8@gmail.com"
+                   aria-label="Email">
+                    <i class="fa-solid fa-envelope"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <div class="hero-card reveal">
+
+            <div class="code-window">
+
+                <div class="window-header">
+
+                    <div class="window-buttons">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+
+                    <span class="window-title">
+                        developer.js
+                    </span>
+
+                </div>
+
+                <div class="code-body">
+
+<pre>
+<span class="code-purple">const</span> developer = {
+    
+  <span class="code-blue">name</span>:
+    <span class="code-green">"Kartheek"</span>,
+
+  <span class="code-blue">role</span>:
+    <span class="code-green">"Software Developer"</span>,
+
+  <span class="code-blue">education</span>:
+    <span class="code-green">"B.Tech CSE"</span>,
+
+  <span class="code-blue">skills</span>: [
+    <span class="code-green">"Python"</span>,
+    <span class="code-green">"JavaScript"</span>,
+    <span class="code-green">"HTML/CSS"</span>,
+    <span class="code-green">"MySQL"</span>
+  ],
+
+  <span class="code-blue">passion</span>:
+    <span class="code-green">"Building"</span>
+};</pre>
+
+                </div>
+
+            </div>
+
+            <div class="floating-card">
+                <i class="fa-solid fa-code"></i>
+                <div>
+                    <strong>Clean Code</strong>
+                    <small>Build • Learn • Improve</small>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="scroll-indicator">
+        <span>SCROLL</span>
+        <i class="fa-solid fa-arrow-down"></i>
+    </div>
+
+</section>
+
+
+<!-- ================= ABOUT ================= -->
+
+<section class="section" id="about">
+
+    <div class="container">
+
+        <div class="section-heading reveal">
+
+            <span class="section-number">01</span>
+
+            <div>
+                <p class="eyebrow">ABOUT ME</p>
+                <h2>Building my path in <span>technology.</span></h2>
+            </div>
+
+        </div>
+
+
+        <div class="about-grid">
+
+            <div class="about-text reveal">
+
+                <p class="lead">
+                    I'm a B.Tech Computer Science & Engineering student
+                    interested in software development, web technologies
+                    and practical AI-powered applications.
+                </p>
+
+                <p>
+                    I enjoy transforming ideas into functional projects
+                    while continuously improving my programming,
+                    problem-solving and software development skills.
+                </p>
+
+                <p>
+                    My current focus is preparing for entry-level
+                    Software Developer and Software Engineer opportunities
+                    while building projects that demonstrate real-world
+                    technical skills.
+                </p>
+
+                <div class="about-details">
+
+                    <div>
+                        <span>Education</span>
+                        <strong>B.Tech CSE</strong>
+                    </div>
+
+                    <div>
+                        <span>College</span>
+                        <strong>Santhiram Engineering College</strong>
+                    </div>
+
+                    <div>
+                        <span>University</span>
+                        <strong>JNTUA</strong>
+                    </div>
+
+                    <div>
+                        <span>CGPA</span>
+                        <strong>7.57 / 10</strong>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="about-stats reveal">
+
+                <div class="stat-card">
+                    <strong>01</strong>
+                    <span>Software<br>Developer</span>
+                </div>
+
+                <div class="stat-card">
+                    <strong>03+</strong>
+                    <span>Projects<br>Built</span>
+                </div>
+
+                <div class="stat-card">
+                    <strong>08+</strong>
+                    <span>Technical<br>Skills</span>
+                </div>
+
+                <div class="stat-card">
+                    <strong>∞</strong>
+                    <span>Learning<br>Mindset</span>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= SKILLS ================= -->
+
+<section class="section skills-section" id="skills">
+
+    <div class="container">
+
+        <div class="section-heading reveal">
+
+            <span class="section-number">02</span>
+
+            <div>
+                <p class="eyebrow">TECHNICAL SKILLS</p>
+                <h2>Tools I <span>work with.</span></h2>
+            </div>
+
+        </div>
+
+
+        <div class="skills-grid">
+
+            <div class="skill-card reveal">
+
+                <div class="skill-icon">
+                    <i class="fa-brands fa-python"></i>
+                </div>
+
+                <div>
+                    <h3>Python</h3>
+                    <p>Programming & problem solving</p>
+                </div>
+
+            </div>
+
+
+            <div class="skill-card reveal">
+
+                <div class="skill-icon">
+                    <i class="fa-brands fa-java"></i>
+                </div>
+
+                <div>
+                    <h3>Java</h3>
+                    <p>Object-oriented programming</p>
+                </div>
+
+            </div>
+
+
+            <div class="skill-card reveal">
+
+                <div class="skill-icon">
+                    <i class="fa-brands fa-html5"></i>
+                </div>
+
+                <div>
+                    <h3>HTML & CSS</h3>
+                    <p>Responsive web interfaces</p>
+                </div>
+
+            </div>
+
+
+            <div class="skill-card reveal">
+
+                <div class="skill-icon">
+                    <i class="fa-brands fa-js"></i>
+                </div>
+
+                <div>
+                    <h3>JavaScript</h3>
+                    <p>Interactive web applications</p>
+                </div>
+
+            </div>
+
+
+            <div class="skill-card reveal">
+
+                <div class="skill-icon">
+                    <i class="fa-solid fa-database"></i>
+                </div>
+
+                <div>
+                    <h3>MySQL</h3>
+                    <p>Database management</p>
+                </div>
+
+            </div>
+
+
+            <div class="skill-card reveal">
+
+                <div class="skill-icon">
+                    <i class="fa-solid fa-cubes"></i>
+                </div>
+
+                <div>
+                    <h3>OOP</h3>
+                    <p>Object-oriented concepts</p>
+                </div>
+
+            </div>
+
+
+            <div class="skill-card reveal">
+
+                <div class="skill-icon">
+                    <i class="fa-solid fa-code"></i>
+                </div>
+
+                <div>
+                    <h3>DSA</h3>
+                    <p>Data structures & algorithms</p>
+                </div>
+
+            </div>
+
+
+            <div class="skill-card reveal">
+
+                <div class="skill-icon">
+                    <i class="fa-brands fa-git-alt"></i>
+                </div>
+
+                <div>
+                    <h3>Git & GitHub</h3>
+                    <p>Version control</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= PROJECTS ================= -->
+
+<!-- ================= PROJECTS ================= -->
+<section id="projects" class="section projects-section">
+    <div class="container">
+
+        <div class="section-heading">
+            <span class="section-tag">MY WORK</span>
+            <h2>Projects</h2>
+            <p>
+                Practical projects focused on AI, web development,
+                automation, and real-world problem solving.
+            </p>
+        </div>
+
+        <div class="projects-grid">
+
+            <!-- Project 1 -->
+            <div class="project-card">
+                <div class="project-number">01</div>
+
+                <div class="project-content">
+                    <span class="project-category">AI / WEB APPLICATION</span>
+
+                    <h3>AI-Powered Resume & Job Description Matcher</h3>
+
+                    <p>
+                        An AI-based web application that analyzes resumes
+                        against job descriptions and identifies matching
+                        skills, keywords, and missing requirements.
+                    </p>
+
+                    <div class="project-tech">
+                        <span>Python</span>
+                        <span>AI</span>
+                        <span>NLP</span>
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+
+                    <div class="project-links">
+                        <a href="#" class="project-btn">
+                            View Project
+                        </a>
+
+                        <a href="https://github.com/kartheek-siddi"
+                           target="_blank"
+                           class="project-btn secondary">
+                            GitHub ↗
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Project 2 -->
+            <div class="project-card">
+                <div class="project-number">02</div>
+
+                <div class="project-content">
+                    <span class="project-category">AI / EDUCATION</span>
+
+                    <h3>AI Focus Detection & Smart Classroom</h3>
+
+                    <p>
+                        A smart classroom system designed to monitor student
+                        attention, generate class transcripts, create topic
+                        based notes, and provide quizzes based on the teacher's
+                        lecture.
+                    </p>
+
+                    <div class="project-tech">
+                        <span>Python</span>
+                        <span>AI</span>
+                        <span>Computer Vision</span>
+                        <span>JavaScript</span>
+                        <span>Flask</span>
+                    </div>
+
+                    <div class="project-links">
+                        <a href="#" class="project-btn">
+                            View Project ↗
+                        </a>
+
+                        <a href="https://github.com/kartheek-siddi"
+                           target="_blank"
+                           class="project-btn secondary">
+                            GitHub ↗
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Project 3 -->
+            <div class="project-card">
+                <div class="project-number">03</div>
+
+                <div class="project-content">
+                    <span class="project-category">WEB APPLICATION</span>
+
+                    <h3>Hostel Complaint Management System</h3>
+
+                    <p>
+                        A web-based platform that allows students to submit,
+                        track, and manage hostel complaints while helping
+                        administrators monitor complaint status efficiently.
+                    </p>
+
+                    <div class="project-tech">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                        <span>MySQL</span>
+                    </div>
+
+                    <div class="project-links">
+                        <a href="#" class="project-btn">
+                            View Project ↗
+                        </a>
+
+                        <a href="https://github.com/kartheek-siddi"
+                           target="_blank"
+                           class="project-btn secondary">
+                            GitHub ↗
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Project 4 -->
+            <div class="project-card">
+                <div class="project-number">04</div>
+
+                <div class="project-content">
+                    <span class="project-category">COMPUTER VISION</span>
+
+                    <h3>Hand & Facial Expression Recognition</h3>
+
+                    <p>
+                        An interactive computer-vision project that recognizes
+                        hand gestures and facial expressions using camera input
+                        and provides real-time visual feedback.
+                    </p>
+
+                    <div class="project-tech">
+                        <span>Python</span>
+                        <span>OpenCV</span>
+                        <span>Computer Vision</span>
+                        <span>AI</span>
+                    </div>
+
+                    <div class="project-links">
+                        <a href="#" class="project-btn">
+                            View Project ↗
+                        </a>
+
+                        <a href="https://github.com/kartheek-siddi"
+                           target="_blank"
+                           class="project-btn secondary">
+                            GitHub ↗
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</section>
+
+<!-- ================= EXPERIENCE ================= -->
+
+<section class="section experience-section"
+         id="experience">
+
+    <div class="container">
+
+        <div class="section-heading reveal">
+
+            <span class="section-number">04</span>
+
+            <div>
+                <p class="eyebrow">EXPERIENCE & CERTIFICATIONS</p>
+                <h2>Learning through <span>experience.</span></h2>
+            </div>
+
+        </div>
+
+
+        <div class="experience-grid">
+
+
+            <div class="timeline reveal">
+
+                <div class="timeline-item">
+
+                    <div class="timeline-dot"></div>
+
+                    <div class="timeline-content">
+
+                        <span class="timeline-date">
+                            Internship
+                        </span>
+
+                        <h3>
+                            Cybersecurity Intern
+                        </h3>
+
+                        <h4>
+                            Reshapp Solutions
+                        </h4>
+
+                        <p>
+                            Gained practical exposure to cybersecurity
+                            concepts, security practices and technical
+                            problem solving.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="certifications reveal">
+
+                <div class="cert-card">
+
+                    <div class="cert-icon">
+                        <i class="fa-solid fa-certificate"></i>
+                    </div>
+
+                    <div>
+                        <h3>
+                            Prompt Engineering
+                        </h3>
+
+                        <p>
+                            AI prompt design and effective interaction
+                            with generative AI systems.
+                        </p>
+                    </div>
+
+                </div>
+
+
+                <div class="cert-card">
+
+                    <div class="cert-icon">
+                        <i class="fa-solid fa-robot"></i>
+                    </div>
+
+                    <div>
+                        <h3>
+                            Agentic AI
+                        </h3>
+
+                        <p>
+                            Learning concepts related to AI agents and
+                            intelligent workflows.
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= CONTACT ================= -->
+
+<section class="section contact-section"
+         id="contact">
+
+    <div class="container">
+
+        <div class="contact-box reveal">
+
+            <div class="contact-content">
+
+                <span class="eyebrow">
+                    05 — CONTACT
+                </span>
+
+                <h2>
+                    Let's build something
+                    <span>useful.</span>
+                </h2>
+
+                <p>
+                    I'm open to entry-level Software Developer,
+                    Software Engineer and internship opportunities.
+                    Feel free to connect with me.
+                </p>
+
+                <a href="mailto:karthiksiddi8@gmail.com"
+                   class="email-link">
+
+                    karthiksiddi8@gmail.com
+
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+
+                </a>
+
+            </div>
+
+
+            <div class="contact-actions">
+
+                <a href="mailto:karthiksiddi8@gmail.com"
+                   class="btn btn-primary">
+
+                    Send Email
+                    <i class="fa-solid fa-paper-plane"></i>
+
+                </a>
+
+                <a href="https://linkedin.com/in/karthik-siddi-9a66382a5"
+                   target="_blank"
+                   class="btn btn-secondary">
+
+                    LinkedIn
+                    <i class="fa-brands fa-linkedin-in"></i>
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+</main>
+
+
+<!-- ================= FOOTER ================= -->
+
+<footer>
+
+    <div class="container footer-container">
+
+        <div class="footer-logo">
+            KARTHEEK<span></span>
+        </div>
+
+        <p>
+            Designed & built by Kartheek
+        </p>
+
+        <div class="footer-socials">
+
+            <a href="https://github.com/kartheek-siddi"
+               target="_blank">
+                <i class="fa-brands fa-github"></i>
+            </a>
+
+            <a href="https://linkedin.com/in/karthik-siddi-9a66382a5"
+               target="_blank">
+                <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+
+            <a href="mailto:karthiksiddi8@gmail.com">
+                <i class="fa-solid fa-envelope"></i>
+            </a>
+
+        </div>
+
+    </div>
+
+    <div class="copyright">
+        © <span id="year"></span> Kartheek. All rights reserved.
+    </div>
+
+</footer>
+
+
+<!-- BACK TO TOP -->
+
+<button id="backToTop"
+        class="back-to-top"
+        aria-label="Back to top">
+
+    <i class="fa-solid fa-arrow-up"></i>
+
+</button>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
